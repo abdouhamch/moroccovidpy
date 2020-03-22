@@ -1,2 +1,2 @@
 # moroccovidpy
-covid_19 statistics by python 
+covid_19 statistics by python Using Matlotlib 
