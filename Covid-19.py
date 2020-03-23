@@ -17,8 +17,8 @@ Labels = ["Confirmed","Deaths","Recovered","Today Confirmed","Today Deaths"]
 if Today_Deaths == 0:
     Val = [Confirmed, Deaths, Recovered, Today_Confirmed]
     Labels = ["Confirmed", "Deaths", "Recovered", "Today Confirmed"]
-    plt.pie(Val, labels=Labels, radius=1.4, autopct='%0.0f%%')
+    plt.pie(Val, labels=Labels, radius=1.2, autopct='%0.0f%%',explode=[0,0.2,0.1,0.1])
     plt.show()
 else:
-    plt.pie(Val, labels=Labels, radius=1.4, autopct='%0.0f%%')
+    plt.pie(Val, labels=Labels, radius=1.2, autopct='%0.0f%%',explode=[0,0.2,0.1,0.1,0.1])
     plt.show()
